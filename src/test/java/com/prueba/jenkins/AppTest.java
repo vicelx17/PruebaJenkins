@@ -13,7 +13,7 @@ public class AppTest {
                 int n2=3;
                 int expected = 6;
                 int result=a.suma(n1, n2);
-                
+                assertEquals(expected, result);
                 
     }
     
